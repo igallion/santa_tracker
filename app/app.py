@@ -287,4 +287,4 @@ def update_map(_, track_data):
 
 if __name__ == "__main__":
     # Standard way to run a Dash application from a command line
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=False)
